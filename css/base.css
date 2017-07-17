@@ -1,0 +1,213 @@
+body {
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+a, a:hover {
+    color: #9B9B9B;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #525356;
+}
+
+.sfts-body {
+    background: #000000 url('//dr3w.github.io/sfts-static/img/bg-photo.png') center top no-repeat;
+}
+
+.sfts-root {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.sfts-logo {
+    display: block;
+    text-decoration: none;
+    margin: 40px auto;
+    width: 231px;
+    height: 151px;
+    background: url('//dr3w.github.io/sfts-static/img/sfts-logo.png') center top no-repeat;
+}
+
+/* MENU */
+.sfts-nav {
+    text-align: center;
+}
+
+.sfts-nav-menu {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.sfts-nav-menu li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+}
+
+.sfts-nav-menu li a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.sfts-nav-menu li:after {
+    content: "•";
+    display: inline-block;
+    padding: 0 15px 0;
+    color: #4A4A4A;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.sfts-nav-menu li:last-child:after {
+    display: none;
+}
+
+/* MENU SM */
+
+.sfts-nav-sm li {
+    line-height: 16px;
+}
+
+.sfts-nav-sm li a {
+    line-height: 14px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.sfts-nav-sm li:after {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 8px 0;
+    font-weight: bold;
+}
+
+.sfts-nav-sm li:last-child:after {
+    display: none;
+}
+
+/* SPOTIFY RELEASE */
+.sfts-release {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.sfts-cover {
+    display: inline-block;
+    margin: 0 6px 20px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sfts-shift-cover-img {
+    width: 400px;
+    height: 400px;
+    background: url('//dr3w.github.io/sfts-static/img/shift-cover.png') center center no-repeat;
+}
+
+.sfts-spotiy-title {
+    text-align: center;
+}
+
+.sfts-spotiy-title-s1, .sfts-spotiy-title-s2 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.sfts-spotiy-title-s2 {
+    color: #9B9B9B;
+}
+
+.sfts-spotiy-title-s3 {
+    font-size: 24px;
+    line-height: 38px;
+    color: #9B9B9B;
+}
+
+.sfts-spotiy-embedded-wrapper {
+    display: inline-block;
+    margin: 0 6px 20px;
+    width: 590px;
+}
+
+.sfts-spotiy-embedded-code {
+    margin-top: 5px;
+    height: 310px;
+}
+
+/* SPOTIFY LINKS */
+.sfts-spotiy-links, .sfts-youtube-links {
+    margin-top: 2px;
+    text-align: right;
+}
+
+/* VIDEO */
+
+.sfts-video {
+    width: 560px;
+    margin: 50px auto 60px;
+}
+
+.sfts-hr {
+    width: 600px;
+    margin: 40px auto;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 1px solid #525356;
+}
+
+.sfts-orbital-easter {
+    width: 100%;
+    height: 345px;
+    margin: 400px auto 0;
+    background: url('//dr3w.github.io/sfts-static/img/orbital-ee.png') center center no-repeat;
+    overflow: hidden;
+}
+
+.sfts-orbital-easter .sfts-orbital-click {
+    display: block;
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+}
+
+#sfts-spotify-iframe {
+    width: 590px;
+}
+
+#sfts-youtube-iframe {
+    width: 560px;
+}
+
+@media (max-width: 420px) {
+    .sfts-nav-menu {
+
+    }
+
+    #sfts-spotify-iframe {
+        width: 390px;
+    }
+
+    #sfts-youtube-iframe {
+        width: 360px;
+    }
+}
