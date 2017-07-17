@@ -28,9 +28,12 @@ a:hover {
     display: block;
     text-decoration: none;
     margin: 40px auto;
+    text-align: center;
+    /*background: url('//dr3w.github.io/sfts-static/img/sfts-logo.png') center top no-repeat;*/
+}
+
+.sfts-logo img {
     width: 231px;
-    height: 151px;
-    background: url('//dr3w.github.io/sfts-static/img/sfts-logo.png') center top no-repeat;
 }
 
 /* MENU */
@@ -79,8 +82,8 @@ a:hover {
     display: none;
 }
 
-/* MENU SM */
 
+/* MENU SM */
 .sfts-nav-sm li {
     line-height: 16px;
 }
@@ -104,7 +107,7 @@ a:hover {
 
 /* SPOTIFY RELEASE */
 .sfts-release {
-    margin-top: 75px;
+    margin-top: 3em;
     text-align: center;
 }
 
@@ -112,14 +115,14 @@ a:hover {
     display: inline-block;
     margin: 0 6px 20px;
     width: 400px;
-    height: 400px;
+    /*height: 400px;*/
     overflow: hidden;
 }
 
 .sfts-shift-cover-img {
-    width: 400px;
-    height: 400px;
-    background: url('//dr3w.github.io/sfts-static/img/shift-cover.png') center center no-repeat;
+    width: 100%;
+    height: auto;
+    /*background: url('//dr3w.github.io/sfts-static/img/shift-cover.png') center center no-repeat;*/
 }
 
 .sfts-spotiy-title {
@@ -155,7 +158,7 @@ a:hover {
 
 /* SPOTIFY LINKS */
 .sfts-spotiy-links, .sfts-youtube-links {
-    margin-top: 2px;
+    margin-top: .65em;
     text-align: right;
 }
 
@@ -163,12 +166,12 @@ a:hover {
 
 .sfts-video {
     width: 560px;
-    margin: 50px auto 60px;
+    margin: 2.5em auto 3em;
 }
 
 .sfts-hr {
-    width: 600px;
-    margin: 40px auto;
+    width: auto;
+    margin: 40px 10%;
     height: 0;
     font-size: 0;
     line-height: 0;
@@ -185,7 +188,7 @@ a:hover {
 
 .sfts-orbital-easter .sfts-orbital-click {
     display: block;
-    margin-top: 200px;
+    margin-top: 50%;
     width: 100%;
     height: 200px;
 }
@@ -198,16 +201,53 @@ a:hover {
     width: 560px;
 }
 
+@media (max-width: 620px) {
+    .sfts-cover {
+
+    }
+
+    .sfts-spotiy-embedded-wrapper {
+        width: 90%;
+    }
+
+    #sfts-spotify-iframe {
+        width: 100%;
+    }
+
+    .sfts-video {
+        width: 90%;
+    }
+
+    #sfts-youtube-iframe {
+        width: 100%;
+    }
+}
+
 @media (max-width: 420px) {
     .sfts-nav-menu {
 
     }
 
-    #sfts-spotify-iframe {
-        width: 390px;
+    .sfts-logo img {
+        width: 200px;
     }
 
-    #sfts-youtube-iframe {
-        width: 360px;
+    .sfts-cover {
+        width: 90%;
+    }
+
+    /* MENU */
+    .sfts-nav-menu {
+        display: block;
+    }
+
+    .sfts-nav-menu li {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .sfts-nav-menu li:after {
+        display: none;
     }
 }
