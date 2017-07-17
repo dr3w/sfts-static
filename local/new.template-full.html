@@ -24,135 +24,93 @@
     <!-- Popup nag -->
     <!--<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"51f4902c8bfd78ec99a419c14","lid":"33c804b848"}) })</script>-->
 
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+          integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="//dr3w.github.io/sfts-static/css/base.css">
 </head>
 
-<body>
-
+<body class="sfts-body">
 <section class="sfts-root">
+    <header class="sfts-header">
+        <a href="/" class="sfts-logo">
+            <img src="//dr3w.github.io/sfts-static/img/sfts-logo.png" alt="">
+        </a>
 
-    <header>
-        <div class="sfts-logo"></div>
-        <nav></nav>
+        <nav class="sfts-nav">
+            <ul class="sfts-nav-menu">
+                <li><a href="https://gumroad.com/sfts#" target="_blank">Shop</a></li>
+                <li><a href="https://spoti.fi/2smlivI" target="_blank">Spotify</a></li>
+                <li><a href="http://apple.co/2rqMO9O" target="_blank">Apple Music</a></li>
+                <li><a href="https://bit.ly/2rBH4OK" target="_blank">Bandcamp</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PL3svEL2PstFjG8gCleWz1jLa_xDoRVh7-" target="_blank">YouTube</a></li>
+                <li><a href="https://soundcloud.com/stonefromthesky/sets/the-shift-remixed" target="_blank">SoundCloud</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <section class="sfts-release">
+        <div class="sfts-cover">
+            <!--<div class="sfts-shift-cover-img"></div>-->
+            <img class="sfts-shift-cover-img" src="//dr3w.github.io/sfts-static/img/shift-cover.png" alt="">
+        </div>
+        <div class="sfts-spotiy-embedded-wrapper">
+            <div class="sfts-spotiy-title">
+                <span class="sfts-spotiy-title-s1">The Shift // </span>
+                <span class="sfts-spotiy-title-s2">Remixed</span>
+            </div>
+            <div class="sfts-spotiy-title">
+                <span class="sfts-spotiy-title-s3">Out Now!</span>
+            </div>
 
+            <div class="sfts-spotiy-embedded-code">
+                <!--width="590"-->
+                <iframe id="sfts-spotify-iframe" src="https://open.spotify.com/embed/album/3sPGGsbVBCATxIbaLVeQVA" height="310" frameborder="0" allowtransparency="true"></iframe>
+            </div>
 
+            <nav class="sfts-nav sfts-nav-sm sfts-spotiy-links">
+                <ul class="sfts-nav-menu sfts-nav-header">
+                    <li><a href="https://bit.ly/2rBH4OK" target="_blank">Buy Album ($0)</a></li>
+                    <li><a href="https://open.spotify.com/artist/48ARA2mzWrFxz8nkxLwkC5" target="_blank">Follow Artist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
 
+    <section class="sfts-video">
+        <div class="sfts-youtube-embed">
+            <!--width="560"-->
+            <iframe id="sfts-youtube-iframe" height="315" src="https://www.youtube.com/embed/Qh1Pehe-QXE" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="sfts-more-videos">
+            <nav class="sfts-nav sfts-nav-sm sfts-youtube-links">
+                <ul class="sfts-nav-menu">
+                    <li><a href="https://www.youtube.com/user/Stonefromthesky" target="_blank">More Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
 
+    <footer>
+        <nav class="sfts-nav">
+            <ul class="sfts-nav-menu">
+                <li><a href="https://gumroad.com/sfts#" target="_blank">Merch</a></li>
+                <li><a href="https://www.facebook.com/stonefromthesky/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/sftsrocks" target="_blank">Twitter</a></li>
+                <!--<li><a href="#" target="_blank">Blog</a></li>-->
+            </ul>
+        </nav>
 
+        <div class="sfts-hr"></div>
 
+        <div class="sfts-subscribe">
+
+        </div>
+    </footer>
+
+    <section class="sfts-orbital-easter">
+        <a href="https://iamstonefromthesky.bandcamp.com/album/orbital" target="_blank" class="sfts-orbital-click">&nbsp;</a>
+    </section>
 </section>
-
-<section style="display: none;">
-    <!--<header>-->
-    <!--<h1><a href="/"></a></h1>-->
-    <!--{block:Description}-->
-    <!--<p><a href="">{Description}</a></p>-->
-    <!--{/block:Description}-->
-    <!--</header>-->
-
-    <!--<section class="posts">-->
-    <!--{block:Posts}-->
-
-    <!--{block:Regular}-->
-    <!--<div class="regular post">-->
-    <!--{block:Title}<h2 class="title">{Title}</h2>{/block:Title}-->
-    <!--{Body}-->
-
-    <!--<section class="post-meta">-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</section>-->
-    <!--</div>-->
-    <!--{/block:Regular}-->
-
-    <!--{block:Photo}-->
-    <!--<div class="photo post">-->
-    <!--<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}">-->
-
-    <!--<section class="post-meta">-->
-    <!--<div class="caption">{Caption}</div>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</section>-->
-    <!--</div>-->
-    <!--{/block:Photo}-->
-
-    <!--{block:Quote}-->
-    <!--<div class="quote {length} post">-->
-    <!--<div class="quoteactual"><q>{Quote}</q></div>-->
-
-    <!--<section class="post-meta">-->
-    <!--<div class="source"><span class="emdash">&mdash;</span>{Source}</div>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</section>-->
-    <!--</div>-->
-    <!--{/block:Quote}-->
-
-    <!--{block:Link}-->
-    <!--<div class="link post">-->
-    <!--<p><a href="{URL}" class="link" {Target}>{Name}</a></p>-->
-    <!--<div class="description">{Description}</div>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</div>-->
-    <!--{/block:Link}-->
-
-    <!--{block:Conversation}-->
-    <!--<div class="conversation content">-->
-    <!--<ul>-->
-    <!--{block:Lines}-->
-    <!--<li class="{Alt}">-->
-    <!--{block:Label}<span class="label">{Label}</span>{/block:Label}-->
-    <!--{Line}-->
-    <!--</li>-->
-    <!--{/block:Lines}-->
-    <!--</ul>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</div>-->
-    <!--{/block:Conversation}-->
-
-    <!--{block:Audio}-->
-    <!--<div class="audio post">-->
-    <!--{AudioPlayerWhite}-->
-    <!--<div class="caption">{block:Caption}{Caption}{/block:Caption}{block:ExternalAudio} [<a-->
-    <!--href="{ExternalAudioURL}">Download</a>]{/block:ExternalAudio}-->
-    <!--</div>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</div>-->
-    <!--{/block:Audio}-->
-
-    <!--{block:Video}-->
-    <!--<div class="video post">-->
-    <!--{Video-500}-->
-
-    <!--<section class="post-meta">-->
-    <!--<div class="caption">{Caption}</div>-->
-    <!--<p class="permalink"><a href="{Permalink}">{Month} {DayOfMonth}, {Year}</a></p>-->
-    <!--</section>-->
-    <!--</div>-->
-    <!--{/block:Video}-->
-    <!--{/block:Posts}-->
-
-    <!--{block:Pagination}-->
-    <!--<div id="pagination">-->
-    <!--<div id="older-link">{block:NextPage}<a href="{NextPage}">&larr; Older</a>{/block:NextPage}</div>-->
-    <!--<div id="page-count">{CurrentPage} <span>of</span> {TotalPages}</div>-->
-    <!--<div id="newer-link">{block:PreviousPage}<a href="{PreviousPage}">Newer &rarr;</a>{/block:PreviousPage}</div>-->
-    <!--</div>-->
-    <!--{/block:Pagination}-->
-    <!--</section>-->
-</section>
-
-{block:IfGoogleAnalyticsID}
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{text:Google Analytics ID}', 'auto');
-    ga('send', 'pageview');
-</script>
-{/block:IfGoogleAnalyticsID}
-
 </body>
 </html>
