@@ -119,6 +119,7 @@ a:hover {
     width: 400px;
     /*height: 400px;*/
     overflow: hidden;
+    vertical-align: top;
 }
 
 .sfts-shift-cover-img {
@@ -128,12 +129,13 @@ a:hover {
 }
 
 .sfts-spotiy-title {
+    height: 42px;
+    line-height: 42px;
     text-align: center;
 }
 
 .sfts-spotiy-title-s1, .sfts-spotiy-title-s2 {
     font-size: 32px;
-    line-height: 44px;
     color: #fff;
 }
 
@@ -151,6 +153,7 @@ a:hover {
     display: inline-block;
     margin: 0 6px 20px;
     width: 590px;
+    vertical-align: top;
 }
 
 .sfts-spotiy-embedded-code {
