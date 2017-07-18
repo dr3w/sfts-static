@@ -86,6 +86,11 @@ a:hover {
 
 
 /* MENU SM */
+.sfts-nav-sm {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .sfts-nav-sm li {
     line-height: 16px;
 }
@@ -157,8 +162,8 @@ a:hover {
 }
 
 .sfts-spotiy-embedded-code {
-    margin-top: 5px;
-    height: 310px;
+    margin-top: 8px;
+    height: 307px;
 }
 
 /* SPOTIFY LINKS */
@@ -198,8 +203,9 @@ a:hover {
     height: 200px;
 }
 
-#sfts-spotify-iframe {
+#sfts-bandcamp-iframe {
     width: 590px;
+    height: 307px;
 }
 
 #sfts-youtube-iframe {
@@ -211,7 +217,7 @@ a:hover {
         width: 90%;
     }
 
-    #sfts-spotify-iframe {
+    #sfts-bandcamp-iframe {
         width: 100%;
     }
 
